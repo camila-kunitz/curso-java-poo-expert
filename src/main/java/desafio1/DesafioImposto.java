@@ -1,4 +1,4 @@
-package Desafio1;
+package desafio1;
 
 import java.util.Locale;
 import java.util.Scanner;
