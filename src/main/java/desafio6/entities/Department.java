@@ -44,9 +44,9 @@ public class Department {
         return employees;
     }
 
-   public void addEmployee(Employee employee) {
-       employees.add(employee);
-   }
+    public void addEmployee(Employee employee) {
+        employees.add(employee);
+    }
 
     public void removeEmployee(Employee employee) {
         employees.remove(employee);
@@ -69,10 +69,10 @@ public class Department {
 
         return
                 "Departamento " + name + " = R$ " + String.format("%.2f", payroll()) + "\n"
-                + "Pagamento realizado no dia " + payDay + "\n"
-                + "Funcionários: \n"
-                + employeeNames
-                + "Para dúvidas favor entrar em contato: " + address.getEmail();
+                        + "Pagamento realizado no dia " + payDay + "\n"
+                        + "Funcionários: \n"
+                        + employeeNames
+                        + "Para dúvidas favor entrar em contato: " + address.getEmail();
     }
 
 
